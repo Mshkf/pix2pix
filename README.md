@@ -21,7 +21,7 @@
 # Веб-версия
 Готовая версия лежит на хостинге [hugging face](https://huggingface.co/spaces/Mshkf/Sketch_2_portrait_pix2pix), можно загрузить и скачать фотографию или просто выбрать пример
 
-Рисунки можно взять [здесь](https://github.com/Mshkf/pix2pix/blob/main/edges.zip)
+Рисунки можно взять [здесь](https://github.com/Mshkf/pix2pix/blob/main/edges.zip), а если рисовать самому, то нужно чётко следовать шаблону: чёткие линии "фломастером" в правильных масштабах, губы и нас как на картинках, обязательно брови
 
 Лучше всего работала неправильная версия, где применяется батчнорм на размере 1 на 1 (что не удивительно, так как у авторов статьи тот же косяк), вот [реализация](https://github.com/Mshkf/pix2pix/blob/main/app.py) веба и для него брались веса из 100-й эпохи [старого](https://www.kaggle.com/code/mshkf7/pix2pix-portraits-dataset/output?scriptVersionId=161597314) ноутбука
 
